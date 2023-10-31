@@ -47,15 +47,6 @@ class Latest_Comments_Widget extends WP_Widget {
     // ... (Rest of the widget methods and functions)
 }
 
-// ... (Widget registration and action hooks)
-In this code, the CSS styles are embedded directly within the widget's widget method. This ensures that the styles are included whenever the widget is displayed, making it responsive for screens up to 768px wide.
-
-Remember, it's generally better practice to enqueue styles and scripts in WordPress instead of adding them directly to the plugin file. However, for the sake of simplicity, the styles have been added directly in this example.
-
-
-
-
-
 
         echo $args['before_widget'];
         if ( ! empty( $title ) ) {
